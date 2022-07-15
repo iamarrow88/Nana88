@@ -1,7 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif+KR:200,300,regular,500,600,700,900);
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-/*# sourceMappingURL=style.css.map */
+
+a {
+  cursor: pointer;
+}
+
+html {
+  background-color: rgb(28, 71, 60);
+  font-size: 24px;
+  color: #f7f3e2;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 30px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  padding: 30px 60px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 90px;
+}
+.logo__link {
+  width: 100%;
+  height: 100%;
+}
+.logo__img {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+}
+.nav__item {
+  list-style-type: none;
+}
+.nav__link {
+  color: inherit;
+  text-decoration: none;
+}
+.nav__link:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
