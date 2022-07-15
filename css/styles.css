@@ -164,4 +164,22 @@ html li {
 .img-block__descr {
   font-size: 12px;
   text-align: center;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+.footer {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.footer__container {
+  padding: 80px 60px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .footer__container 
+
+.container 
+
+.footer__year 
+
+.footer__github  *//*# sourceMappingURL=styles.css.map */

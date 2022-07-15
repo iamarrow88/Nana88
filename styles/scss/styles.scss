@@ -193,3 +193,21 @@ html {
 		text-align: center;
 	}
 }
+
+.footer {
+	max-width: 1260px;
+	margin: 0 auto;
+	&__container {
+		padding: 80px 60px 50px;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+/* .footer__container 
+
+.container 
+
+.footer__year 
+
+.footer__github  */
