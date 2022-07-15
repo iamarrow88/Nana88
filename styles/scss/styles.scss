@@ -97,15 +97,16 @@ html {
 	}
 }
 
-.main {
+/* .main {
 	&__container {
-		padding: 65px 185px 0 185px;
+		
 	}
-}
+} */
 
 .intro {
 	display: flex;
 	justify-content: space-between;
+	padding: 65px 185px 85px 185px;
 
 	&__text {
 		max-width: 340px;
@@ -153,24 +154,42 @@ html {
 	}
 }
 
-/* .main__container 
+.best {
 
-.container 
+	&__title {
+		max-width: 1000px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 22px;
+	}
 
-.intro 
+	&__sellers {
+		font-size: 20px;
+	}
 
-.intro 
+	&__all {
+		font-size: 16px;
+		text-decoration-line: underline;
+	}
+}
 
-.intro__subtitle 
+.img-block {
+	max-width: 1062px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
 
-.intro__descr 
+	&__item {
+		max-width: 210px;
+	}
 
-.intro_btns 
+	&__pic {
+		max-width: 100%;
+	}
 
-.btns__download 
-
-.btns__booking 
-
-.intro__img 
-
-.intro__img-pic  */
+	&__descr {
+		font-size: 12px;
+		text-align: center;
+	}
+}

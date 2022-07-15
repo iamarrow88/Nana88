@@ -84,13 +84,15 @@ html li {
   width: 100%;
 }
 
-.main__container {
-  padding: 65px 185px 0 185px;
-}
+/* .main {
+	&__container {
 
+	}
+} */
 .intro {
   display: flex;
   justify-content: space-between;
+  padding: 65px 185px 85px 185px;
 }
 .intro__text {
   max-width: 340px;
@@ -131,24 +133,35 @@ html li {
   color: #fff;
 }
 
-/* .main__container 
+.best__title {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.best__sellers {
+  font-size: 20px;
+}
+.best__all {
+  font-size: 16px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
 
-.container 
-
-.intro 
-
-.intro 
-
-.intro__subtitle 
-
-.intro__descr 
-
-.intro_btns 
-
-.btns__download 
-
-.btns__booking 
-
-.intro__img 
-
-.intro__img-pic  *//*# sourceMappingURL=styles.css.map */
+.img-block {
+  max-width: 1062px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.img-block__item {
+  max-width: 210px;
+}
+.img-block__pic {
+  max-width: 100%;
+}
+.img-block__descr {
+  font-size: 12px;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
