@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Krub:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+/* ---------------------- STYLES RESET ------------------------------ */
+html {
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3;
+  color: #E1E1E1;
+}
+html body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+}
+html a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+html li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* -------------------------- HEADER STYLES ---------------------------- */
+.header {
+  min-height: 100px;
+}
+.header__container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80px;
+  font-size: 28px;
+}
+.logo__img {
+  max-width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.nav__item {
+  padding: 0 8px;
+}
+.nav__item:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__link {
+  font-size: 17px;
+}
+.nav__link:hover {
+  color: #fff;
+}
+.nav__contact {
+  padding: 5px 15px;
+  margin-right: 22px;
+  border: 1px solid #D9D9D9;
+  border-radius: 20px;
+}
+.nav__cart {
+  margin-top: 4px;
+  width: 27px;
+}
+.nav__cart-image {
+  width: 100%;
+}
+
+/* .main {
+	&__container {
+
+	}
+} */
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 65px 185px 85px 185px;
+}
+.intro__text {
+  max-width: 340px;
+}
+.intro__subtitle {
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.intro__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.intro__descr {
+  font-size: 12px;
+  margin-bottom: 23px;
+}
+
+.button, .btns__booking, .btns__download {
+  width: 102px;
+  height: 29px;
+  border-radius: 29px;
+  font-size: 10px;
+}
+
+.btns__download {
+  background-color: #F868DE;
+  border: 1px solid #1E1E1E;
+  color: #1E1E1E;
+  margin-right: 13px;
+}
+.btns__booking {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.best__title {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.best__sellers {
+  font-size: 20px;
+}
+.best__all {
+  font-size: 16px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.img-block {
+  max-width: 1062px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.img-block__item {
+  max-width: 210px;
+}
+.img-block__pic {
+  max-width: 100%;
+}
+.img-block__descr {
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.footer__container {
+  padding: 80px 60px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .footer__container 
+
+.container 
+
+.footer__year 
+
+.footer__github  *//*# sourceMappingURL=styles.css.map */
