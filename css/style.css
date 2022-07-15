@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: space-between;
   height: 150px;
-  padding: 30px 60px;
+  padding: 30px 100px;
 }
 .header__nav {
   display: flex;
@@ -62,4 +62,24 @@ body {
 }
 .nav__link:hover {
   cursor: pointer;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.main__container {
+  padding: 60px;
+}
+
+.text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* .text__intro 
+
+.text__dropdown 
+
+.dropdown 
+
+.dropdown__title 
+
+.dropdown__descr 
+ *//*# sourceMappingURL=style.css.map */
