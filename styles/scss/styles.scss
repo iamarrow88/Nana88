@@ -209,19 +209,6 @@ html {
 
 }
 
-/* .plants__item 
-
-.plants__img-block 
-
-.img-block__pic 
-
-.plants__text 
-.text__btn
-
-.text
-
- */
-
 .footer {
 	max-width: 1260px;
 	margin: 0 auto;
@@ -230,6 +217,15 @@ html {
 		display: flex;
 		justify-content: space-between;
 	}
+
+	&__contacts {
+		font-size: 18px;
+	}
 }
 
+.socials {
+	display: flex;
+	justify-content: space-between;
+	max-width: 200px;
+}
 
