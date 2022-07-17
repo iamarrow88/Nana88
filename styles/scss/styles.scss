@@ -366,20 +366,25 @@ html {
 			top: 42px;
 			right: 42px;
 			display: block;
-			width: fit-content;
+			width: 42px;
 
 		}
 	}
 
 	.close-lines {
+		position: absolute;
 		display: block;
     width: 42px;
     height: 5px;
     background-color: #E1E1E1;
-    margin-bottom: 8px;
-
-		&:last-child {
-			margin-bottom: 0;
+		&:nth-child(1) {
+			top: 0;
+		}
+		&:nth-child(2) {
+			top: 13px;
+		}
+		&:nth-child(3) {
+			top: 26px;
 		}
 	}
 
@@ -403,3 +408,18 @@ html {
 	margin-right: 0;
 	transition: .5s all;
 }
+
+
+	.close-lines__line1-opened {
+		transform: rotate(45deg) translate(6px, 10px);
+		top: 13px;
+		transition: .5s all;
+	}
+	.close-lines__line2-opened {
+		display: none;
+	}
+	.close-lines__line3-opened {
+		transform: rotate(-45deg) translate(8px, -14px);
+		top: 13px;
+		transition: .5s all;
+	}
