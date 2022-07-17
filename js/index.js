@@ -11,3 +11,14 @@ plantsBlock.addEventListener('click', function openArticle(e){
     console.log("🚀 ~ file: index.js ~ line 12 ~ openArticle ~ article", article)
 	}
 })
+
+
+/* ---------------------------- BURGER MENU ---------------- */
+
+const closeBtn = document.querySelector('.close-lines');
+
+
+closeBtn.addEventListener('click', () => {
+	console.log('click close!');
+	document.querySelector('.nav').classList.toggle('show-menu');
+})
