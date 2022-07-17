@@ -23,7 +23,7 @@ html li {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1900px;
   margin: 0 auto;
   padding: 0 30px;
 }
@@ -92,9 +92,10 @@ html li {
 .intro {
   display: flex;
   justify-content: space-between;
-  padding: 65px 185px 85px 185px;
+  padding: 65px 160px 45px 160px;
 }
 .intro__text {
+  padding-top: 60px;
   max-width: 340px;
 }
 .intro__subtitle {
@@ -133,6 +134,9 @@ html li {
   color: #fff;
 }
 
+.best {
+  padding-top: 40px;
+}
 .best__title {
   max-width: 1000px;
   margin: 0 auto;
@@ -150,7 +154,7 @@ html li {
 }
 
 .plants {
-  max-width: 1062px;
+  max-width: 85%;
   margin: 0 auto;
 }
 .plants__item {
@@ -194,7 +198,7 @@ html li {
 }
 
 .footer {
-  max-width: 1260px;
+  max-width: 85%;
   margin: 0 auto;
 }
 .footer__container {

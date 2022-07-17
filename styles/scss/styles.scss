@@ -27,7 +27,7 @@ html {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1900px;
 	margin: 0 auto;
 	padding: 0 30px;
 }
@@ -106,9 +106,10 @@ html {
 .intro {
 	display: flex;
 	justify-content: space-between;
-	padding: 65px 185px 85px 185px;
+	padding: 65px 160px 45px 160px;
 
 	&__text {
+		padding-top: 60px;
 		max-width: 340px;
 	}
 
@@ -155,6 +156,7 @@ html {
 }
 
 .best {
+	padding-top: 40px;
 
 	&__title {
 		max-width: 1000px;
@@ -175,7 +177,7 @@ html {
 }
 
 .plants {
-	max-width: 1062px;
+	max-width: 85%;
 	margin: 0 auto;
 
 	&__item {
@@ -223,7 +225,7 @@ html {
 }
 
 .footer {
-	max-width: 1260px;
+	max-width: 85%;
 	margin: 0 auto;
 	&__container {
 		padding: 80px 60px 50px;
