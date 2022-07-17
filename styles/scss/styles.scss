@@ -27,6 +27,7 @@ html {
 }
 
 .container {
+	position: relative;
 	max-width: 1900px;
 	margin: 0 auto;
 	padding: 0 30px;
@@ -340,4 +341,30 @@ html {
 			max-width:70px;
 		}
 
+		&__close {
+			position: fixed;
+			top: 42px;
+			right: 42px;
+			display: block;
+			width: fit-content;
+
+		}
+	}
+
+	.close-lines {
+		display: block;
+    width: 42px;
+    height: 5px;
+    background-color: #E1E1E1;
+    margin-bottom: 8px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.show-menu {
+	margin-right: 0;
+	transition: .5s all;
 }
