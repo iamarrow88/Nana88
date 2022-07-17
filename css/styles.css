@@ -324,12 +324,15 @@ html li {
   }
   .close-lines:nth-child(1) {
     top: 0;
+    transition: 0.5s all;
   }
   .close-lines:nth-child(2) {
     top: 13px;
+    transition: 0.5s all;
   }
   .close-lines:nth-child(3) {
     top: 26px;
+    transition: 0.5s all;
   }
   .intro {
     width: 75vw;
@@ -348,13 +351,13 @@ html li {
 }
 
 .close-lines__line1-opened {
-  transform: rotate(45deg) translate(6px, 10px);
+  transform: rotate(45deg) translate(5px, 10px);
   top: 13px;
   transition: 0.5s all;
 }
 
 .close-lines__line2-opened {
-  display: none;
+  opacity: 0;
 }
 
 .close-lines__line3-opened {
